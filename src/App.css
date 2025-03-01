@@ -1,5 +1,19 @@
+/* Ensure full-page background */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #c0e9f2; /* Background color for the entire page */
+}
+
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
@@ -14,7 +28,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
